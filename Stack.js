@@ -55,7 +55,7 @@ while (seguir == "S"){
     pila.push(libro);
 
     seguir = prompt("¿Continuar? [S/N]")
-    pila.size();
+    console.log(pila.size());
 }
 
 pila.print();
